@@ -12,10 +12,7 @@ class Main extends Component {
 
         return (
             <div>
-                {this.props.children}
-                <SlideShow>
-                    {images}
-                </SlideShow>
+                <SlideShow> {images} </SlideShow>
             </div>
         );
     }
